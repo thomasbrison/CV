@@ -19,7 +19,7 @@ describe('my app', function() {
 
 
     it('should render contact when user navigates to /contact', function() {
-      expect(element.all(by.css('[ng-view] label')).first().getText()).
+      expect(element.all(by.css('[ng-view] td')).first().getText()).
         toMatch(/Téléphone :/);
     });
 

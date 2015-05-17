@@ -5,6 +5,10 @@ body {
     margin: 0;
 }
 
+header > h1 {
+    text-align: center;
+}
+
 .menu {
     display: inline-block;
     position: relative;
@@ -19,7 +23,7 @@ body {
 .menu > li {
     display: block;
     background-color: #AAA;
-    margin-top: 0.3em;
+    margin-bottom: 0.3em;
     padding-left: 1em;
     border-style: solid;
     border-color: #00B;
@@ -50,6 +54,15 @@ body {
     display: inline-block;
     position: relative;
     vertical-align: top;
-    margin-top: 1em;
     margin-left: 2em;
+}
+
+#content > * {
+    margin-top: 0;
+}
+
+table.contact td {
+    vertical-align: top;
+    padding-right: 2em;
+    padding-bottom: 0.5em;
 }
