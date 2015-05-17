@@ -1,10 +1,9 @@
 {
-  "name": "angular-seed",
+  "name": "cv-brison",
   "private": true,
-  "version": "0.0.0",
-  "description": "A starter project for AngularJS",
-  "repository": "https://github.com/angular/angular-seed",
-  "license": "MIT",
+  "version": "0.0.1",
+  "description": "Thomas Brison's CV",
+  "repository": "https://github.com/thomasbrison/CV",
   "devDependencies": {
     "karma": "~0.10",
     "protractor": "^1.1.1",
